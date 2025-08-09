@@ -1,9 +1,5 @@
-import React from 'react'
+import React from "react";
 
-const MiddlePart = () => {
-  return (
-    <div className='bg-[#121212] w-2/4 rounded-2xl py-5 px-7 '>MiddlePart</div>
-  )
+export default function MiddlePart() {
+  return <div className="bg-[#181818] rounded-2xl p-5 h-full">Middle Part</div>;
 }
-
-export default MiddlePart

@@ -1,4 +1,5 @@
 @import "tailwindcss";
 * {
   color: white;
+  user-select: none;
 }
