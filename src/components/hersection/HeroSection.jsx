@@ -5,7 +5,7 @@ import Rightpart from '../rightside/Rightpart'
 
 const HeroSection = () => {
   return (
-    <div className='flex justify-around'>
+    <div className='flex m-3 gap-3 justify-around h-[calc(100vh-171px)]'>
         <Liberary/>
         <MiddlePart/>
         <Rightpart/>
