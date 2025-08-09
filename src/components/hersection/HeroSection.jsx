@@ -39,13 +39,13 @@ export default function App() {
       ref={containerRef}
       className="flex  bg-black text-white overflow-hidden gap-2 m-2 h-[78vh]"
     >
-      <div style={{ width: libWidth }} className="bg-[#121212] rounded-2xl p-5">
+      <div style={{ width: libWidth }} className="bg-[#121212] rounded-2xl ">
         <Liberary />
       </div>
 
       <div
         onMouseDown={(e) => startDrag(e, "left")}
-        className="w-1 bg-gray-600 cursor-col-resize hover:bg-gray-400"
+        className="w-1 bg-transparent active:bg-white cursor-col-resize hover:bg-white"
       />
 
       <div className="flex-1">
@@ -54,7 +54,7 @@ export default function App() {
 
       <div
         onMouseDown={(e) => startDrag(e, "right")}
-        className="w-1 bg-gray-600 cursor-col-resize hover:bg-gray-400"
+        className="w-1 bg-transparent active:bg-white cursor-col-resize hover:bg-white"
       />
 
       <div style={{ width: rightWidth }} className="bg-[#121212] rounded-2xl p-5">
