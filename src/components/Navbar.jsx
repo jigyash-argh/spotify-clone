@@ -70,7 +70,7 @@ return (
         type="text"
         value={search}
         onChange={e => setSearch(e.target.value)}
-        className="bg-[#1F1F1F] w-full h-[48px] focus:border-2 focus:border-white border border-transparent rounded-4xl pl-14 pr-28 md:pr-36 placeholder:text-gray-400 text-white transition-all duration-200"
+        className="hover:bg-[#1F1F1F] w-full h-[48px] focus:border-2 bg-[#1a1a1a] focus:border-white border border-transparent rounded-4xl pl-14 pr-28 md:pr-36 placeholder:text-gray-400 text-white transition-all duration-200"
         placeholder="What do you want to play ?"
     />
     {/* Clear Search Button with label */}

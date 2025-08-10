@@ -1,10 +1,13 @@
 import React from "react";
 import Yourliberarysectio from "./Yourliberarysectio ";
 
-export default function Liberary() {
-  return <div>
-      <div>
-        <Yourliberarysectio/>
-      </div>
-  </div>;
+export default function Liberary({ collapsed, setCollapsed }) {
+  return (
+    <div className="h-full">
+      <Yourliberarysectio
+        collapsed={collapsed}
+        setCollapsed={setCollapsed}
+      />
+    </div>
+  );
 }
