@@ -90,12 +90,13 @@ const Yourliberarysectio = ({ collapsed, setCollapsed }) => {
   style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
 >
   {liberarylist.map((item) => (
-    <button
-      key={item.id}
-      className="text-white bg-[#2A2A2A] px-4 py-3 rounded-full text-md hover:bg-[#3A3A3A]"
-    >
-      {item.value}
-    </button>
+<button
+  key={item.id}
+  className="text-white bg-[#2A2A2A] px-6 py-3 rounded-4xl text-md hover:bg-[#3A3A3A] whitespace-nowrap"
+>
+  {item.value}
+</button>
+
   ))}
   <style jsx>{`
     div::-webkit-scrollbar {

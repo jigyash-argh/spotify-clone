@@ -5,11 +5,12 @@ import { HiPlus } from 'react-icons/hi' // Hero Icons
 // or
 import { IoMdAdd } from 'react-icons/io' // Ionicons
 
+
 const Songprofile = ({song}) => {
   return (
-    <div className='h-[56px] w-1/7 flex items-center'>
+    <div className='h-[56px] w-1/7 flex items-center m-5'>
       <img src={song.image} alt="" className='h-[56px] rounded-xl' />
-      <div className='flex flex-col justify-center items-start px-6 py-4 space-y-2'>
+      <div className='flex flex-col justify-center items-start px-6 py-4 space-y-2 hidden md:block'>
         <a href=""><h1 className='font-semibold hover:underline'>{song.name}</h1></a>
         <a href=""><h3 className='text-sm hover:underline'>{song.singer}</h3></a>
       </div>
